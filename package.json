@@ -1,0 +1,15 @@
+{
+  "name": "qrl-grpcurl-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -R node_modules/google-proto-files/google ./"
+  },
+  "author": "QRL developers <info@theqrl.org> (https://theqrl.org/)",
+  "license": "MIT",
+  "dependencies": {
+    "google-proto-files": "^2.5.0"
+  }
+}
